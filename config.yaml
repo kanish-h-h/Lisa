@@ -1,0 +1,10 @@
+system:
+  max_chunk_size: 512   # characters per chunk
+  enable_ocr: False  # Disable OCR initially
+  model_provider: "huggingface"  # Alternative: ollama (locally)
+  runtime: "cpu"
+  embedding_model: "all-MiniLM-L6-v2"   # Lightweight
+
+logging:
+  level: "INFO"
+  max_log_size: "10MB"   # Prevent disk overflow
