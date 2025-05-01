@@ -1,1 +1,13 @@
+# System
+# .ipynb_checkpoints/
 
+# Data
+# data/raw/*
+# data/processed/*
+
+# Models
+# models/**
+# !models/.gitkeep
+
+# Local secrets
+# .env
